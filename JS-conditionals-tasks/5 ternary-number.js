@@ -10,3 +10,9 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+
+
+var num1= 80
+var num2= 70
+
+num1 > num2 ? console.log(num1 * 2) : console.log(num1 + num2);
