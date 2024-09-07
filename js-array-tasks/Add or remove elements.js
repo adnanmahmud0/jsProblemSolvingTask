@@ -5,7 +5,7 @@
 // Remove the last tourist destination you have added
 // display the final array as output
 
-tourist_destinations=['shylet', 'coxes bazar', 'rangpur'];
+let tourist_destinations=['shylet', 'coxes bazar', 'rangpur'];
 console.log(tourist_destinations);
 tourist_destinations.push('Khulna');
 console.log(tourist_destinations);

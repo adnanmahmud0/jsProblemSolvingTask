@@ -1,29 +1,31 @@
+
+
 /***
 
 Subtask-1:
 
-Find all the odd numbers from 61 to 100.
+Display sum of all the odd numbers from 81 to 131.
 
  */
-
-
 /***
 
 Subtask-2:
 
-Find all the even numbers from 78 to 98.
+Display sum of all the even numbers from 206 to 311.
 
  */
-let i=61
-while(i<=100){
+
+
+let i=81
+while(i<=131){
     if(i%2!=0){
         console.log(i)
     }
     i++;
 }
 
-i=78
-while(i<=98){
+i=206
+while(i<=311){
     if(i%2==0){
         console.log(i)
     }
