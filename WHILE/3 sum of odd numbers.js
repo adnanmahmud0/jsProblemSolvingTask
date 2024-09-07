@@ -16,10 +16,11 @@ Display sum of all the even numbers from 206 to 311.
  */
 
 
-let i=81
+let i=81;
+let x=0, y=0;
 while(i<=131){
     if(i%2!=0){
-        console.log(i)
+        x=x+i;
     }
     i++;
 }
@@ -27,7 +28,10 @@ while(i<=131){
 i=206
 while(i<=311){
     if(i%2==0){
-        console.log(i)
+        y=y+i;
     }
     i++;
 }
+
+console.log(x)
+console.log(y)
