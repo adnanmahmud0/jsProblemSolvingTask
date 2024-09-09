@@ -6,3 +6,18 @@
 //     model: "Corolla",
 //     year: 2020
 // };
+
+
+
+
+const car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
+
+console.log(car);
+
+car.passenger = 5;
+
+console.log(car);
